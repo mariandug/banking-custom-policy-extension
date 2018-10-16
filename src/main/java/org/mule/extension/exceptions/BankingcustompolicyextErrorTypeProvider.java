@@ -19,6 +19,7 @@ public class BankingcustompolicyextErrorTypeProvider implements ErrorTypeProvide
 		Set<ErrorTypeDefinition> errorTypes = new HashSet<>();
 
 		errorTypes.add(BankingcustompolicyextErrorTypes.INVALID_JWT);
+		errorTypes.add(BankingcustompolicyextErrorTypes.GENERAL_JWT_ERROR);
 
 		return errorTypes;
 	}

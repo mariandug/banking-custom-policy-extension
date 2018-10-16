@@ -1,3 +1,9 @@
+/*
+ * (c) 2003-2018 MuleSoft, Inc. This software is protected under international copyright
+ * law. All use of this software is subject to MuleSoft's Master Subscription Agreement
+ * (or other master license agreement) separately entered into in writing between you and
+ * MuleSoft. If such an agreement is not in place, you may not use the software.
+ */
 package org.mule.extension.internal;
 
 
@@ -6,17 +12,17 @@ package org.mule.extension.internal;
  */
 public final class BankingcustompolicyextConnection {
 
-  private final String id;
+    private final String id;
 
-  public BankingcustompolicyextConnection(String id) {
-    this.id = id;
-  }
+    public BankingcustompolicyextConnection(String id) {
+        this.id = id;
+    }
 
-  public String getId() {
-    return id;
-  }
+    public String getId() {
+        return id;
+    }
 
-  public void invalidate() {
-    // do something to invalidate this connection!
-  }
+    public void invalidate() {
+        // do something to invalidate this connection!
+    }
 }

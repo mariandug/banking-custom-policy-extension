@@ -14,13 +14,13 @@ import java.util.Set;
 
 public class BankingcustompolicyextErrorTypeProvider implements ErrorTypeProvider {
 
-	@Override
-	public Set<ErrorTypeDefinition> getErrorTypes() {
-		Set<ErrorTypeDefinition> errorTypes = new HashSet<>();
+    @Override
+    public Set<ErrorTypeDefinition> getErrorTypes() {
+        Set<ErrorTypeDefinition> errorTypes = new HashSet<>();
 
-		errorTypes.add(BankingcustompolicyextErrorTypes.INVALID_JWT);
-		errorTypes.add(BankingcustompolicyextErrorTypes.GENERAL_JWT_ERROR);
+        errorTypes.add(BankingcustompolicyextErrorTypes.INVALID_JWT);
+        errorTypes.add(BankingcustompolicyextErrorTypes.GENERAL_JWT_ERROR);
 
-		return errorTypes;
-	}
+        return errorTypes;
+    }
 }

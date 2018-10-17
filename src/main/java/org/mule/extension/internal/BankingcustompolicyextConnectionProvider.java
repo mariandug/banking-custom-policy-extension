@@ -34,7 +34,7 @@ public class BankingcustompolicyextConnectionProvider implements PoolingConnecti
     private int optionalParameter;
 
     @Override
-    public BankingcustompolicyextConnection connect() throws ConnectionException {
+    public BankingcustompolicyextConnection connect() {
         return new BankingcustompolicyextConnection(requiredParameter + ":" + optionalParameter);
     }
 

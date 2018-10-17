@@ -9,5 +9,5 @@ package org.mule.extension.exceptions;
 import org.mule.runtime.extension.api.error.ErrorTypeDefinition;
 
 public enum BankingcustompolicyextErrorTypes implements ErrorTypeDefinition<BankingcustompolicyextErrorTypes> {
-    INVALID_JWT, GENERAL_JWT_ERROR
+    INVALID_JWT
 }

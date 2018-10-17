@@ -9,9 +9,7 @@ package org.mule.extension.internal;
 import org.mule.metadata.api.builder.BaseTypeBuilder;
 import org.mule.metadata.api.model.AnyType;
 import org.mule.metadata.api.model.MetadataType;
-import org.mule.runtime.api.connection.ConnectionException;
 import org.mule.runtime.api.metadata.MetadataContext;
-import org.mule.runtime.api.metadata.MetadataResolvingException;
 import org.mule.runtime.api.metadata.resolving.OutputTypeResolver;
 
 import static org.mule.metadata.api.model.MetadataFormat.JAVA;
@@ -26,9 +24,7 @@ public class BankingcustompolicyextMetadataResolver implements OutputTypeResolve
     }
 
     @Override
-    public MetadataType getOutputType(MetadataContext context, Object key)
-        throws MetadataResolvingException, ConnectionException {
+    public MetadataType getOutputType(MetadataContext context, Object key) {
         return ANY_TYPE;
     }
-
 }

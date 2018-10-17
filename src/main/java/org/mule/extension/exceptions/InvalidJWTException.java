@@ -7,19 +7,10 @@
 package org.mule.extension.exceptions;
 
 import org.mule.runtime.extension.api.exception.ModuleException;
-
 import static org.mule.extension.exceptions.BankingcustompolicyextErrorTypes.INVALID_JWT;
 
 public class InvalidJWTException extends ModuleException {
-
-    private static final long serialVersionUID = 4293937020863079653L;
-
     public InvalidJWTException(Throwable cause) {
         super("Invalid JWT", INVALID_JWT, cause);
     }
-
-    public InvalidJWTException() {
-        super("Invalid JWT", INVALID_JWT);
-    }
-
 }
